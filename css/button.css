@@ -1,0 +1,160 @@
+.person2-button {
+    display: inline-block;
+    position: fixed;
+    width: 92px;
+    height: 99px;
+    top: 15px;
+    left: 1783px;
+    background: url(/images/person2.png)
+      no-repeat center;
+    background-size: cover;
+    z-index: 2;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    transition: transform 0.2s;
+  }
+.person2-button:hover {
+    transform: scale(1.05);
+}
+.dress-button{
+    display: inline-block;
+    position: fixed;
+    width: 87px;
+    height: 87px;
+    top: 25px;
+    left: 1650px;
+    background: url(/images/dress.png)
+      no-repeat center;
+    background-size: cover;
+    z-index: 3;
+}
+.dress-button:hover {
+    transform: scale(1.05);
+}    
+.about-us-button {
+    display: inline-block;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: fixed;
+    height: 43px;
+    top: 6px;
+    left: 45px;
+    font-family: Soyuz Grotesk;
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 43px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 8;
+    text-decoration: none;
+    color: #7228fd; 
+    background-color: none;
+    padding: 10px 20px; 
+    border-radius: 5px; 
+    transition: background-color 0.3s;
+}
+.color-type-definition {
+    display: inline-block;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: fixed;
+    width: 678px;
+    height: 66px;
+    top: 6px;
+    left: 170px;
+    color: #744ef1;
+    font-family: Soyuz Grotesk;
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 43.225px;
+    text-align: left;
+    z-index: 4;
+    text-decoration: none;
+    background-color: none;
+    padding: 10px 20px; 
+    border-radius: 5px; 
+    transition: background-color 0.3s;
+
+}
+.color-type-test {
+    display: inline-block;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: fixed;
+    height: 55px;
+    top: 6px;
+    left: 590px;
+    color: #744ef1;
+    font-family: Soyuz Grotesk;
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 43.225px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 5;
+    text-decoration: none;
+    background-color: none;
+    padding: 10px 20px; 
+    border-radius: 5px; 
+    transition: background-color 0.3s;
+}
+.virtual-wardrobe {
+    display: inline-block;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: fixed;
+    height: 55px;
+    top: 6px;
+    left: 940px;
+    color: #744ef1;
+    font-family: Soyuz Grotesk;
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 43.225px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 6;
+    text-decoration: none;
+    background-color: none;
+    padding: 10px 20px; 
+    border-radius: 5px; 
+    transition: background-color 0.3s;
+  }
+  .my-wardrobe {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    height: 55px;
+    top: 7px;
+    left: 1350px;
+    color: #744ef1;
+    font-family: Soyuz Grotesk;
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 43.225px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 7;
+    text-decoration: none;
+    background-color: none;
+    padding: 10px 20px; 
+    border-radius: 5px; 
+    transition: background-color 0.3s;
+  }
+  .click-here {
+    display: inline-block;
+    position: relative;
+    color: #4d05df;
+    font-family: Soyuz Grotesk;
+    font-size: 70px;
+    font-weight: 700;
+    line-height: 84px;
+    text-align: left;
+    text-decoration: none;
+    background-color: none;
+    padding: 10px 20px; 
+    border-radius: 5px; 
+    transition: background-color 0.3s;
+  }

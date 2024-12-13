@@ -1,0 +1,702 @@
+body {
+    background: linear-gradient(180deg, #F8EDC2 0%, #ad83f2 100%) no-repeat;
+    background-size: cover;
+    height: 2100vh;
+    width: 100vw;
+    margin: 0;
+    overflow: visible;
+}
+
+.flex-row {
+    position: relative;
+    width: 2926px;
+    height: 1988px;
+    margin: 46px 0 0 -56px;
+    z-index: 39;
+  }
+  .fashion-text {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    height: 184px;
+    top: 0;
+    left: 0;
+    color: rgba(68, 68, 176, 0.78);
+    font-family: Neothic;
+    font-size: 80px;
+    font-weight: 400;
+    line-height: 184px;
+    text-align: left;
+    white-space: nowrap;
+    letter-spacing: 8px;
+    z-index: 6;
+  }
+  .transparent {
+    position: absolute;
+    width: 2173px;
+    height: 1943px;
+    top: 45px;
+    left: 753px;
+    background: rgba(217, 217, 217, 0);
+  }
+  .important-element {
+    position: relative;
+    width: 890px;
+    height: 433px;
+    margin: 792px 0 0 296px;
+    font-family: Soyuz Grotesk;
+    font-size: 70px;
+    font-weight: 700;
+    line-height: 67.41px;
+    text-align: left;
+    z-index: 1;
+  }
+  .color-type {
+    position: relative;
+    color: #4444b0;
+    font-family: Soyuz Grotesk;
+    font-size: 70px;
+    font-weight: 700;
+    line-height: 84px;
+    text-align: left;
+  }
+  .important-element-1 {
+    position: relative;
+    color: rgba(69, 69, 177, 0.96);
+    font-family: Soyuz Grotesk;
+    font-size: 70px;
+    font-weight: 700;
+    line-height: 84px;
+    text-align: left;
+  }
+  .first-step {
+    position: absolute;
+    width: 1934px;
+    height: 230px;
+    top: 651px;
+    left: 99px;
+    font-family: Soyuz Grotesk;
+    font-size: 80px;
+    font-weight: 700;
+    line-height: 77.04px;
+    text-align: left;
+    z-index: 39;
+  }
+  .first-step-2 {
+    position: relative;
+    color: #000000;
+    font-family: Neothic;
+    top: -70px;
+    font-size: 100px;
+    font-weight: 400;
+    line-height: 120px;
+    text-align: left;
+  }
+  .empty-space {
+    position: relative;
+    color: #000000;
+    font-family: Soyuz Grotesk;
+    font-size: 80px;
+    font-weight: 700;
+    line-height: 77.04px;
+    text-align: left;
+  }
+  .test-offer {
+    position: absolute;
+    width: 1373px;
+    height: 201px;
+    top: 1400px;
+    left: 155px;
+    font-family: Soyuz Grotesk;
+    font-size: 70px;
+    font-weight: 700;
+    line-height: 67.41px;
+    text-align: left;
+    z-index: 4;
+  }
+  .test-instruction {
+    position: relative;
+    color: #000000;
+    font-family: Soyuz Grotesk;
+    font-size: 70px;
+    font-weight: 700;
+    line-height: 84px;
+    text-align: left;
+  }
+  .star {
+    position: absolute;
+    width: 700px;
+    height: 600px;
+    top: -70px;
+    left: -900px;
+    background: url(/images/star.png);
+    background-size: cover;
+  }
+  .color-type-3 {
+    position: relative;
+    color: #3415c1;
+    font-family: Soyuz Grotesk;
+    font-size: 70px;
+    top: 10spx;
+    font-weight: 700;
+    line-height: 84px;
+    text-align: left;
+  }
+  .take-test-here {
+    position: absolute;
+    width: 1057px;
+    height: 67px;
+    top: 1800px;
+    left: 150px;
+    font-family: Soyuz Grotesk;
+    font-size: 70px;
+    font-weight: 700;
+    line-height: 67px;
+    text-align: left;
+    text-overflow: initial;
+    white-space: nowrap;
+    z-index: 5;
+  }
+  .take-test-here-4 {
+    position: relative;
+    color: #000000;
+    font-family: Soyuz Grotesk;
+    font-size: 70px;
+    font-weight: 700;
+    line-height: 84px;
+    text-align: left;
+  }
+  .seasonal-color-types {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: relative;
+    width: 1439px;
+    height: 197px;
+    margin: 30px 0 0 284px;
+    color: #000000;
+    font-family: Soyuz Grotesk;
+    font-size: 100px;
+    font-weight: 700;
+    line-height: 96.3px;
+    text-align: left;
+    z-index: 3;
+  }
+  .flex-row-d {
+    position: relative;
+    width: 1730px;
+    height: 81px;
+    margin: 133px 0 0 107px;
+    z-index: 15;
+  }
+  .spring {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    height: 81px;
+    top: 0;
+    left: 1041px;
+    color: #000000;
+    font-family: Neothic;
+    font-size: 70px;
+    font-weight: 400;
+    line-height: 80.527px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 14;
+  }
+  .autumn {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    height: 81px;
+    top: 0;
+    left: 1479px;
+    color: #000000;
+    font-family: Neothic;
+    font-size: 70px;
+    font-weight: 400;
+    line-height: 80.527px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 15;
+  }
+  .regroup {
+    position: absolute;
+    width: 628px;
+    height: 81px;
+    top: 0;
+    left: 0;
+    z-index: 10;
+  }
+  .summer {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    height: 59px;
+    top: 0;
+    left: 0;
+    color: #000000;
+    font-family: Neothic;
+    font-size: 70px;
+    font-weight: 400;
+    line-height: 59px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 9;
+  }
+  .winter {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    height: 81px;
+    top: 0;
+    left: 416px;
+    color: #020202;
+    font-family: Neothic;
+    font-size: 70px;
+    font-weight: 400;
+    line-height: 80.527px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 10;
+  }
+  .flex-row-a {
+    position: relative;
+    width: 1788.462px;
+    height: 400px;
+    margin: 0 0 0 73px;
+    z-index: 16;
+  }
+  .emily-blunt-summer {
+    position: absolute;
+    width: 266.182px;
+    height: 400px;
+    top: 0;
+    left: 0;
+    background: url(/images/emily.jpg)
+      no-repeat center;
+    background-size: cover;
+    z-index: 7;
+  }
+  .anne-winter {
+    position: absolute;
+    width: 266.182px;
+    height: 400px;
+    top: 0;
+    left: 409px;
+    background: url(/images/ann.jpg)
+      no-repeat center;
+    background-size: cover;
+    z-index: 11;
+  }
+  .regroup-5 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    width: 735.462px;
+    height: 400px;
+    top: 0;
+    left: 1053px;
+    z-index: 16;
+  }
+  .spring-emma {
+    flex-shrink: 0;
+    position: relative;
+    width: 288.1px;
+    height: 400px;
+    background: url(/images/emma.jpg)
+      no-repeat center;
+    background-size: cover;
+    z-index: 13;
+  }
+  .autumn-jolie {
+    flex-shrink: 0;
+    position: relative;
+    width: 298.462px;
+    height: 400px;
+    background: url(/images/jolie.jpg)
+      no-repeat center;
+    background-size: cover;
+    z-index: 16;
+  }
+  .flex-row-6 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    width: 1682px;
+    height: 67px;
+    margin: 51px 0 0 73px;
+    z-index: 12;
+  }
+  .cool-tones {
+    flex-shrink: 0;
+    position: relative;
+    height: 67px;
+    color: #000000;
+    font-family: Soyuz Grotesk;
+    font-size: 70px;
+    font-weight: 700;
+    line-height: 67px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 8;
+  }
+  .warm-tones {
+    flex-shrink: 0;
+    position: relative;
+    height: 67px;
+    color: #000000;
+    font-family: Soyuz Grotesk;
+    font-size: 70px;
+    font-weight: 700;
+    line-height: 67px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 12;
+  }
+  .color-photoroom {
+    position: relative;
+    width: 553px;
+    height: 553px;
+    margin: 133px 0 0 669px;
+    background: url(/images/crug.png)
+      no-repeat center;
+    background-size: cover;
+    z-index: 40;
+  }
+  .congratulations {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: relative;
+    width: 1730px;
+    height: 232px;
+    margin: 180px 0 0 95px;
+    color: #000000;
+    font-family: Soyuz Grotesk;
+    font-size: 70px;
+    font-weight: 700;
+    line-height: 67.41px;
+    text-align: left;
+    z-index: 22;
+  }
+  .winter-7 {
+    display: block;
+    position: relative;
+    height: 115px;
+    margin: 621px 0 0 93px;
+    color: #2109da;
+    font-family: Neothic;
+    font-size: 100px;
+    font-weight: 400;
+    line-height: 115px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 21;
+  }
+  .high-contrast {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: relative;
+    width: 1692px;
+    height: 804px;
+    margin: 82px 0 0 73px;
+    color: #000000;
+    font-family: Soyuz Grotesk;
+    font-size: 70px;
+    font-weight: 700;
+    line-height: 67.41px;
+    text-align: left;
+    z-index: 17;
+  }
+  .main-color-palette {
+    display: block;
+    position: relative;
+    height: 67px;
+    margin: 109px 0 0 495px;
+    color: #000000;
+    font-family: Soyuz Grotesk;
+    font-size: 70px;
+    font-weight: 700;
+    line-height: 67px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 18;
+  }
+  .empty {
+    position: relative;
+    width: 1312px;
+    height: 1160px;
+    margin: 18px 0 0 219px;
+    background: url(/images/wintercolor.png)
+      no-repeat center;
+    background-size: cover;
+    z-index: 23;
+  }
+  .main-colors-bright-cold {
+    position: relative;
+    width: 1668px;
+    height: 370px;
+    margin: 46px 0 0 104px;
+    font-family: Soyuz Grotesk;
+    font-size: 70px;
+    font-weight: 700;
+    line-height: 67.41px;
+    text-align: left;
+    z-index: 24;
+  }
+  .main-colors {
+    position: relative;
+    color: #4444b0;
+    font-family: Soyuz Grotesk;
+    font-size: 70px;
+    font-weight: 700;
+    line-height: 67.41px;
+    text-align: left;
+  }
+  .bright-cold-shades {
+    position: relative;
+    color: #000000;
+    font-family: Soyuz Grotesk;
+    font-size: 70px;
+    font-weight: 700;
+    line-height: 67.41px;
+    text-align: left;
+  }
+  .spring-8 {
+    display: block;
+    position: relative;
+    height: 115px;
+    margin: 112px 0 0 93px;
+    color: #166b19;
+    font-family: Neothic;
+    font-size: 100px;
+    font-weight: 400;
+    line-height: 115px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 25;
+  }
+  .delicate-color-type {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: relative;
+    width: 1597px;
+    height: 522px;
+    margin: 64px 0 0 73px;
+    color: #000000;
+    font-family: Soyuz Grotesk;
+    font-size: 70px;
+    font-weight: 700;
+    line-height: 67.41px;
+    text-align: left;
+    z-index: 27;
+  }
+  .main-color-palette-9 {
+    display: block;
+    position: relative;
+    height: 67px;
+    margin: 112px 0 0 495px;
+    color: #000000;
+    font-family: Soyuz Grotesk;
+    font-size: 70px;
+    font-weight: 700;
+    line-height: 67px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 19;
+  }
+  .spring-palette {
+    position: relative;
+    width: 1412px;
+    height: 1260px;
+    margin: 112px 0 0 219px;
+    background: url(/images/springcolor.jpg)
+      no-repeat center;
+    background-size: cover;
+    z-index: 34;
+  }
+  .clothing-colors {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: relative;
+    width: 1584px;
+    height: 369px;
+    margin: 81px 0 0 73px;
+    color: #000000;
+    font-family: Soyuz Grotesk;
+    font-size: 70px;
+    font-weight: 700;
+    line-height: 67.41px;
+    text-align: left;
+    z-index: 28;
+  }
+  .summer-a {
+    display: block;
+    position: relative;
+    height: 115px;
+    margin: 234px 0 0 161px;
+    color: #bc3c25;
+    font-family: Neothic;
+    font-size: 100px;
+    font-weight: 400;
+    line-height: 115px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 26;
+  }
+  .cool-toned-summer {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    left: -100px;
+    position: relative;
+    width: 1484px;
+    height: 633px;
+    margin: 143px 0 0 173px;
+    color: #000000;
+    font-family: Soyuz Grotesk;
+    font-size: 70px;
+    font-weight: 700;
+    line-height: 67.41px;
+    text-align: left;
+    z-index: 30;
+  }
+  .main-color-palette-b {
+    display: block;
+    position: relative;
+    height: 67px;
+    margin: 445px 0 0 485px;
+    color: #000000;
+    font-family: Soyuz Grotesk;
+    font-size: 70px;
+    font-weight: 700;
+    line-height: 67px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 20;
+  }
+  .image {
+    position: relative;
+    width: 1260px;
+    height: 1260px;
+    margin: 56px 0 0 285px;
+    background: url(/images/ocencolor.jpg)
+      no-repeat center;
+    background-size: cover;
+    z-index: 29;
+  }
+  .pastel-tones-summer {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: relative;
+    width: 1493px;
+    height: 645px;
+    margin: 201px 0 0 173px;
+    color: #000000;
+    font-family: Soyuz Grotesk;
+    font-size: 70px;
+    font-weight: 700;
+    line-height: 67.41px;
+    text-align: left;
+    z-index: 31;
+  }
+  .autumn-c {
+    display: block;
+    position: relative;
+    height: 115px;
+    margin: 201px 0 0 161px;
+    color: #ec7914;
+    font-family: Neothic;
+    font-size: 100px;
+    font-weight: 400;
+    line-height: 115px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 32;
+  }
+  .autumn-description {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: relative;
+    width: 1493px;
+    height: 603px;
+    margin: 122px 0 0 173px;
+    color: #000000;
+    font-family: Soyuz Grotesk;
+    font-size: 70px;
+    font-weight: 700;
+    line-height: 67.41px;
+    text-align: left;
+    z-index: 33;
+  }
+  .main-color-palette-d {
+    display: block;
+    position: relative;
+    height: 67px;
+    margin: 198px 0 0 495px;
+    color: #000000;
+    font-family: Soyuz Grotesk;
+    font-size: 70px;
+    font-weight: 700;
+    line-height: 67px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 36;
+  }
+  .image-e {
+    position: relative;
+    width: 1151px;
+    height: 1519px;
+    margin: 70px 0 0 344px;
+    background: url(/images/ocencolor.jpg)
+      no-repeat center;
+    background-size: cover;
+    z-index: 35;
+  }
+  .suitable-shades-autumn {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: relative;
+    width: 1476px;
+    height: 502px;
+    margin: 156px 0 0 173px;
+    color: #000000;
+    font-family: Soyuz Grotesk;
+    font-size: 70px;
+    font-weight: 700;
+    line-height: 67.41px;
+    text-align: left;
+    z-index: 37;
+  }
+  .create-your-style {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: relative;
+    width: 1305px;
+    height: 320px;
+    margin: 129px 0 0 289px;
+    color: #ffffff;
+    font-family: Soyuz Grotesk;
+    font-size: 70px;
+    font-weight: 700;
+    line-height: 80px;
+    text-align: left;
+    z-index: 38;
+  }
+  

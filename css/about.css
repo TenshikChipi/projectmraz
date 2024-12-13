@@ -1,0 +1,412 @@
+body {
+    background: linear-gradient(180deg, #F8EDC2 0%, #ad83f2 100%) no-repeat;
+    background-size: cover;
+    height: 400vh;
+    width: 100vw;
+    margin: 0;
+    overflow: visible;
+}
+.about-us1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 15px;
+    width: 322px;
+    height: 115px;
+    margin: 30px 0 0 730px;
+    color: #4545b0;
+    font-family: Neothic;
+    font-size: 100px;
+    font-weight: 400;
+    line-height: 115px;
+    text-align: center;
+    white-space: nowrap;
+    z-index: 6;
+  }
+  .twinkle-site {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    width: 1618px;
+    top: 150px;
+    height: 428px;
+    margin: 129px 0 0 82px;
+    color: #4444b0;
+    font-family: Soyuz Grotesk;
+    font-size: 70px;
+    font-weight: 700;
+    line-height: 67.41px;
+    text-align: left;
+    z-index: 7;
+  }
+  .best-version {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    width: 2372px;
+    height: 115px;
+    top: 500px;
+    margin: 278px 0 0 -221px;
+    color: #4444b0;
+    font-family: Neothic;
+    font-size: 100px;
+    font-weight: 400;
+    line-height: 115px;
+    text-align: center;
+    white-space: nowrap;
+    z-index: 5;
+  }
+  .rectangle {
+    position: absolute;
+    width: 379px;
+    height: 203px;
+    top: 1050px;
+    left: 710px;
+    background: url(/images/rec.png)
+      no-repeat center;
+    background-size: cover;
+    z-index: 3;
+    backdrop-filter: blur(45px);
+  }
+  .goals {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    width: 688px;
+    height: 115px;
+    top: 1100px;
+    left: 550px;
+    color: #4444b0;
+    font-family: Neothic;
+    font-size: 70px;
+    font-weight: 400;
+    line-height: 115px;
+    text-align: center;
+    white-space: nowrap;
+    z-index: 4;
+  }
+  .flex-row-a-2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    width: 1764px;
+    height: 451px;
+    margin: 97px 0 0 60px;
+    z-index: 2;
+  }
+  .help-everyday-outfit {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    position: relative;
+    width: 530px;
+    top: 600px;
+    height: 450px;
+    color: #4444b0;
+    font-family: Soyuz Grotesk;
+    font-size: 70px;
+    font-weight: 700;
+    line-height: 67.41px;
+    text-align: center;
+  }
+  .confidence-new-looks {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    position: relative;
+    top: 600px;
+    width: 530px;
+    height: 450px;
+    color: #4444b0;
+    font-family: Soyuz Grotesk;
+    font-size: 70px;
+    font-weight: 700;
+    line-height: 67.41px;
+    text-align: center;
+    z-index: 2;
+  }
+  .time-saving-details {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 710px;
+    top: 400px;
+    height: 385px;
+    margin: 158px 0 0 587px;
+    color: #4444b0;
+    font-family: Soyuz Grotesk;
+    font-size: 70px;
+    font-weight: 700;
+    line-height: 67.41px;
+    text-align: center;
+    z-index: 1;
+  }
+  .our-journey {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: relative;
+    width: 603px;
+    top: 300px;
+    height: 186px;
+    margin: 285px 0 0 678px;
+    color: #4444b0;
+    font-family: Neothic;
+    font-size: 100px;
+    font-weight: 400;
+    line-height: 115.039px;
+    text-align: left;
+    z-index: 8;
+  }
+  .flex-row-baf {
+    position: relative;
+    top: 200spx;
+    width: 1935px;
+    height: 771px;
+    margin: 63px 0 0 -25px;
+    z-index: 15;
+  }
+  .organization-combination {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    width: 745px;
+    height: 134px;
+    top: 200px;
+    left: 800px;
+    color: #4444b0;
+    font-family: Soyuz Grotesk;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 67.41px;
+    text-align: center;
+    z-index: 13;
+  }
+  
+  .point1 {
+    position: relative;
+    width: 17px;
+    height: 17px;
+    margin: 49.479px 0 0 710px;
+    background: url(/images/point.png)
+      no-repeat center;
+    background-size: cover;
+    z-index: 10;
+    border-radius: 50%;
+  }
+  .point2 {
+    position: relative;
+    width: 17px;
+    height: 17px;
+    margin: 484px 0 0 552px;
+    background: url(/images/point.png)
+      no-repeat center;
+    background-size: cover;
+    z-index: 11;
+    border-radius: 50%;
+  }
+  .vector {
+    position: absolute;
+    width: 1162px;
+    height: 569.979px;
+    top: 2300px;
+    left: 331px;
+    background: url(./assets/images/df1d76c2-8112-4868-a13f-357bbb800214.png)
+      no-repeat center;
+    background-size: cover;
+    z-index: 14;
+  }
+  .site-helper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    width: 771px;
+    height: 200px;
+    top: 142px;
+    left: 0;
+    color: #4444b0;
+    font-family: Soyuz Grotesk;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 67.41px;
+    text-align: center;
+    text-overflow: initial;
+    z-index: 12;
+    overflow: hidden;
+  }
+  .image-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    width: 426px;
+    height: 448px;
+    top: 370px;
+    left: 1450px;
+    color: #4444b0;
+    font-family: Soyuz Grotesk;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 67.41px;
+    text-align: center;
+    z-index: 15;
+  }
+  .time-release {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    width: 792px;
+    height: 167px;
+    top: 600px;
+    left: 71px;
+    color: #4444b0;
+    font-family: Soyuz Grotesk;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 67.41px;
+    text-align: center;
+    z-index: 9;
+  }
+  .flex-row-b {
+    position: relative;
+    width: 1936px;
+    height: 740px;
+    margin: 82px 0 0 0;
+    z-index: 22;
+  }
+  .footer {
+    position: absolute;
+    width: 1920px;
+    height: 740px;
+    top: 0;
+    left: 0;
+    background: #4444b0;
+    z-index: 17;
+  }
+  .product-about-us {
+    position: absolute;
+    width: 640px;
+    height: 651px;
+    top: 21px;
+    left: 820px;
+    font-family: Inter, var(--default-font-family);
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 43.568px;
+    text-align: left;
+    z-index: 24;
+  }
+  .product {
+    position: relative;
+    color: #ffebde;
+    font-family: Inter, var(--default-font-family);
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 60px;
+    text-align: left;
+  }
+  .empty {
+    position: relative;
+    color: #ffebde;
+    font-family: Inter, var(--default-font-family);
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 57.6px;
+    text-align: left;
+  }
+  .about-us-goals {
+    position: relative;
+    color: #ffebde;
+    font-family: Inter, var(--default-font-family);
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 43.568px;
+    text-align: left;
+  }
+  .twinkle {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    height: 200px;
+    top: 28px;
+    left: 31px;
+    color: #ffebde;
+    font-family: Inter, var(--default-font-family);
+    font-size: 128px;
+    font-weight: 400;
+    line-height: 154.909px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 20;
+  }
+  .text {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    height: 96px;
+    top: 104px;
+    left: 775px;
+    color: #ffffff;
+    font-family: Inter, var(--default-font-family);
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 48.409px;
+    text-align: left;
+    text-overflow: initial;
+    z-index: 25;
+    overflow: hidden;
+  }
+  .school-project {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    width: 570px;
+    height: 130px;
+    top: 197px;
+    left: 31px;
+    color: rgba(255, 235, 222, 0.5);
+    font-family: Inter, var(--default-font-family);
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 38.727px;
+    text-align: left;
+    z-index: 21;
+  }
+  .logo {
+    position: relative;
+    width: 472px;
+    height: 380px;
+    top: 3000px;
+    left: 1200px;
+    margin: 76px 0 0 121px;
+    background: url(/images/logo.png)
+      no-repeat center;
+    background-size: cover;
+    z-index: 23;
+  }
+  .background {
+    position: absolute;
+    width: 714px;
+    height: 581px;
+    top: 104px;
+    left: 1222px;
+    background: url(/images/fon.png)
+      no-repeat center;
+    background-size: cover;
+    filter: blur(100px);
+    z-index: 22;
+  }
