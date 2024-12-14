@@ -1,8 +1,8 @@
 body {
     background: linear-gradient(180deg, #F8EDC2 0%, #ad83f2 100%) no-repeat;
     background-size: cover;
-    height: 100vh;
-    width: 100vw;
+    height: auto;
+    width: 100%;
     margin: 0;
     overflow: hidden;
 }
