@@ -1,39 +1,57 @@
 body {
     background: linear-gradient(180deg, #F8EDC2 0%, #ad83f2 100%) no-repeat;
     background-size: cover;
-    height: auto;
-    width: 100%;
-    margin: 0;
     overflow: hidden;
+    display: flex;
+    width: 1920px;
+    height: 1082px;
+    justify-content: center;
+    align-items: center;
+}
+.caprasimo-regular {
+  font-family: "Caprasimo", serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
+
+
+.sofia-sans-semi-condensed-uniquifier{
+  font-family: "Sofia Sans Semi Condensed", serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+}
   .twinkle {
     display: flex;
     align-items: flex-start;
     justify-content: flex-start;
     position: absolute;
     height: 400px;
-    top: 330px;
-    left: 320px;
+    top: 410px;
+    left: 450px;
     color: #7A7ACE;
-    font-family: Prosto One;
-    font-size: 270px;
+    font-family:Caprasimo;
+    font-style: normal;
+    line-height: normal;
+    font-size: 210px;
     font-weight: 400;
     line-height: 337.5px;
-    text-align: left;
+    text-align: center;
     white-space: nowrap;
-    letter-spacing: 27px;
+    letter-spacing: 35px;
     z-index: 1;
     text-shadow: 0 4px 5px #001dff;
   }
   .logo {
     position: absolute;
-    width: 500px;
-    height: 400px;
-    top: 25px;
-    left: 700px;
-    background: url(/images/logo.png)
+    width: 720px;
+    height: 681px;
+    top: 30px;
+    left: 670px;
+    background: url(/images/logo.svg)
       no-repeat center;
     background-size: cover;
+    flex-shrink: 0;
   }
 

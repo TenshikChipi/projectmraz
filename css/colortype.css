@@ -1,5 +1,5 @@
 body {
-    background: linear-gradient(180deg, #F8EDC2 0%, #ad83f2 100%) no-repeat;
+    background: radial-gradient(#E0C04C,#FEF1BC);;
     background-size: cover;
     height: 2100vh;
     width: 100vw;
