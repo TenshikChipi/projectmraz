@@ -1,10 +1,99 @@
 body {
-    background: radial-gradient(#E0C04C,#FEF1BC);;
+    background: radial-gradient(#E0C04C,#FEF1BC);
     background-size: cover;
-    height: 2100vh;
-    width: 100vw;
+    height: 1900px;
+    width: 1920px;
     margin: 0;
     overflow: visible;
+}
+footer{
+  background: #454597;
+  width: 2100px;
+  height: 800px;
+  flex-shrink: 0;
+}
+
+.product{
+  position: relative;
+  display: flex;
+  width: 640px;
+  height: 651px;
+  flex-direction: column;
+  justify-content: center;
+  flex-shrink: 0;
+  color: #FFEBDE;
+  font-family: Inter;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  top: -300px;
+  right: -700px;
+}
+
+.circle{
+  position: relative;
+  top: -750px;
+  left: 1300px;
+  width: 400px; /* Ширина круга */
+  height: 400px; /* Высота круга */
+  border-radius: 50%; /* Закругление углов для создания круга */
+  background: #2C1768; /* Градиентный фон */
+  filter: blur(50px);
+}
+.logo {
+  position: absolute;
+  width: 720px;
+  height: 681px;
+  left: 1145px;
+  top: 18250px;
+  background: url(/images/logo.svg)
+    no-repeat center;
+  background-size: cover;
+  flex-shrink: 0;
+}
+
+.school{
+  color: rgba(255, 235, 222, 0.50);
+  font-family: Inter;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  width: 570px;
+  height: 130px;
+  flex-shrink: 0;
+}
+.twinklefooter{
+  width: 710px;
+  height: 200px;
+  flex-shrink: 0;
+  color: #FFEBDE;
+  top: 1000px;
+  font-family: Inter;
+  font-size: 128px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.inter-uniquifier{
+  font-family: "Inter", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.spectral-sc-regular {
+  font-family: "Spectral SC", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.spectral-sc-bold {
+  font-family: "Spectral SC", serif;
+  font-weight: 700;
+  font-style: normal;
 }
 
 .flex-row {
@@ -15,37 +104,38 @@ body {
     z-index: 39;
   }
   .fashion-text {
+    width: 2730px;
+    height: 184px;
+    flex-shrink: 0;
     display: flex;
     align-items: flex-start;
     justify-content: flex-start;
     position: absolute;
     height: 184px;
-    top: 0;
+    top: -700px;
     left: 0;
-    color: rgba(68, 68, 176, 0.78);
-    font-family: Neothic;
-    font-size: 80px;
-    font-weight: 400;
-    line-height: 184px;
-    text-align: left;
-    white-space: nowrap;
-    letter-spacing: 8px;
-    z-index: 6;
+    color: rgba(69, 69, 177, 0.78);
+    font-family: "Spectral SC";
+    font-size: 100px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 200px; /* 200% */
+    letter-spacing: 10px;
   }
-  .transparent {
-    position: absolute;
-    width: 2173px;
-    height: 1943px;
-    top: 45px;
-    left: 753px;
-    background: rgba(217, 217, 217, 0);
+
+  .source-serif-4-uniquifier {
+    font-family: "Source Serif 4", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
   }
+
   .important-element {
     position: relative;
     width: 890px;
     height: 433px;
     margin: 792px 0 0 296px;
-    font-family: Soyuz Grotesk;
+    font-family: Source Serif 4;
     font-size: 70px;
     font-weight: 700;
     line-height: 67.41px;
@@ -54,8 +144,9 @@ body {
   }
   .color-type {
     position: relative;
+    top: 300px;
     color: #4444b0;
-    font-family: Soyuz Grotesk;
+    font-family: Source Serif 4;
     font-size: 70px;
     font-weight: 700;
     line-height: 84px;
@@ -63,8 +154,9 @@ body {
   }
   .important-element-1 {
     position: relative;
+    top: 300px;
     color: rgba(69, 69, 177, 0.96);
-    font-family: Soyuz Grotesk;
+    font-family: Source Serif 4;
     font-size: 70px;
     font-weight: 700;
     line-height: 84px;
@@ -74,101 +166,30 @@ body {
     position: absolute;
     width: 1934px;
     height: 230px;
-    top: 651px;
+    top: 30px;
     left: 99px;
-    font-family: Soyuz Grotesk;
+    font-family: Spectral SC;
     font-size: 80px;
     font-weight: 700;
     line-height: 77.04px;
     text-align: left;
     z-index: 39;
   }
-  .first-step-2 {
-    position: relative;
-    color: #000000;
-    font-family: Neothic;
-    top: -70px;
-    font-size: 100px;
-    font-weight: 400;
-    line-height: 120px;
-    text-align: left;
-  }
-  .empty-space {
-    position: relative;
-    color: #000000;
-    font-family: Soyuz Grotesk;
-    font-size: 80px;
-    font-weight: 700;
-    line-height: 77.04px;
-    text-align: left;
-  }
-  .test-offer {
-    position: absolute;
-    width: 1373px;
-    height: 201px;
-    top: 1400px;
-    left: 155px;
-    font-family: Soyuz Grotesk;
-    font-size: 70px;
-    font-weight: 700;
-    line-height: 67.41px;
-    text-align: left;
-    z-index: 4;
-  }
-  .test-instruction {
-    position: relative;
-    color: #000000;
-    font-family: Soyuz Grotesk;
-    font-size: 70px;
-    font-weight: 700;
-    line-height: 84px;
-    text-align: left;
-  }
+ 
   .star {
     position: absolute;
     width: 700px;
     height: 600px;
-    top: -70px;
-    left: -900px;
+    left: 800px;
+    top: 80px;;;
     background: url(/images/star.png);
     background-size: cover;
   }
-  .color-type-3 {
-    position: relative;
-    color: #3415c1;
-    font-family: Soyuz Grotesk;
-    font-size: 70px;
-    top: 10spx;
-    font-weight: 700;
-    line-height: 84px;
-    text-align: left;
-  }
-  .take-test-here {
-    position: absolute;
-    width: 1057px;
-    height: 67px;
-    top: 1800px;
-    left: 150px;
-    font-family: Soyuz Grotesk;
-    font-size: 70px;
-    font-weight: 700;
-    line-height: 67px;
-    text-align: left;
-    text-overflow: initial;
-    white-space: nowrap;
-    z-index: 5;
-  }
-  .take-test-here-4 {
-    position: relative;
-    color: #000000;
-    font-family: Soyuz Grotesk;
-    font-size: 70px;
-    font-weight: 700;
-    line-height: 84px;
-    text-align: left;
-  }
+
+
   .seasonal-color-types {
     display: flex;
+    top: -1000px;
     align-items: flex-start;
     justify-content: flex-start;
     position: relative;
@@ -176,12 +197,11 @@ body {
     height: 197px;
     margin: 30px 0 0 284px;
     color: #000000;
-    font-family: Soyuz Grotesk;
+    font-family:  Source Serif 4;
     font-size: 100px;
     font-weight: 700;
     line-height: 96.3px;
     text-align: left;
-    z-index: 3;
   }
   .flex-row-d {
     position: relative;
@@ -196,10 +216,10 @@ body {
     justify-content: flex-start;
     position: absolute;
     height: 81px;
-    top: 0;
+    top: -1000px;
     left: 1041px;
     color: #000000;
-    font-family: Neothic;
+    font-family: Spectral SC;
     font-size: 70px;
     font-weight: 400;
     line-height: 80.527px;
@@ -213,10 +233,10 @@ body {
     justify-content: flex-start;
     position: absolute;
     height: 81px;
-    top: 0;
+    top: -1000px;
     left: 1479px;
     color: #000000;
-    font-family: Neothic;
+    font-family: Spectral SC;
     font-size: 70px;
     font-weight: 400;
     line-height: 80.527px;
@@ -238,10 +258,10 @@ body {
     justify-content: flex-start;
     position: absolute;
     height: 59px;
-    top: 0;
+    top: -1000px;
     left: 0;
     color: #000000;
-    font-family: Neothic;
+    font-family: Spectral SC;
     font-size: 70px;
     font-weight: 400;
     line-height: 59px;
@@ -255,10 +275,10 @@ body {
     justify-content: flex-start;
     position: absolute;
     height: 81px;
-    top: 0;
+    top: -1000px;
     left: 416px;
     color: #020202;
-    font-family: Neothic;
+    font-family:Spectral SC;
     font-size: 70px;
     font-weight: 400;
     line-height: 80.527px;
@@ -277,7 +297,7 @@ body {
     position: absolute;
     width: 266.182px;
     height: 400px;
-    top: 0;
+    top: -900px;
     left: 0;
     background: url(/images/emily.jpg)
       no-repeat center;
@@ -288,7 +308,7 @@ body {
     position: absolute;
     width: 266.182px;
     height: 400px;
-    top: 0;
+    top: -900px;
     left: 409px;
     background: url(/images/ann.jpg)
       no-repeat center;
@@ -309,6 +329,7 @@ body {
   .spring-emma {
     flex-shrink: 0;
     position: relative;
+    top: -900px;
     width: 288.1px;
     height: 400px;
     background: url(/images/emma.jpg)
@@ -318,6 +339,7 @@ body {
   }
   .autumn-jolie {
     flex-shrink: 0;
+    top: -900px;
     position: relative;
     width: 298.462px;
     height: 400px;
@@ -338,10 +360,11 @@ body {
   }
   .cool-tones {
     flex-shrink: 0;
+    top: -800px;
     position: relative;
     height: 67px;
     color: #000000;
-    font-family: Soyuz Grotesk;
+    font-family:  Source Serif 4;
     font-size: 70px;
     font-weight: 700;
     line-height: 67px;
@@ -351,10 +374,11 @@ body {
   }
   .warm-tones {
     flex-shrink: 0;
+    top: -800px;
     position: relative;
     height: 67px;
     color: #000000;
-    font-family: Soyuz Grotesk;
+    font-family:  Source Serif 4;
     font-size: 70px;
     font-weight: 700;
     line-height: 67px;
@@ -362,26 +386,26 @@ body {
     white-space: nowrap;
     z-index: 12;
   }
-  .color-photoroom {
-    position: relative;
-    width: 553px;
-    height: 553px;
-    margin: 133px 0 0 669px;
+  .color-photoroom{
+    position: absolute;
+    right: 700px;
+    top: 3000px;
+    width: 753px;
+    height: 670px;
+    flex-shrink: 0;
     background: url(/images/crug.png)
-      no-repeat center;
-    background-size: cover;
-    z-index: 40;
   }
   .congratulations {
     display: flex;
     align-items: flex-start;
     justify-content: flex-start;
     position: relative;
+    top: -200px;
     width: 1730px;
     height: 232px;
     margin: 180px 0 0 95px;
     color: #000000;
-    font-family: Soyuz Grotesk;
+    font-family:  Source Serif 4;
     font-size: 70px;
     font-weight: 700;
     line-height: 67.41px;
@@ -394,7 +418,7 @@ body {
     height: 115px;
     margin: 621px 0 0 93px;
     color: #2109da;
-    font-family: Neothic;
+    font-family: Spectral SC;
     font-size: 100px;
     font-weight: 400;
     line-height: 115px;
@@ -411,7 +435,7 @@ body {
     height: 804px;
     margin: 82px 0 0 73px;
     color: #000000;
-    font-family: Soyuz Grotesk;
+    font-family: Source Serif 4;
     font-size: 70px;
     font-weight: 700;
     line-height: 67.41px;
@@ -424,7 +448,7 @@ body {
     height: 67px;
     margin: 109px 0 0 495px;
     color: #000000;
-    font-family: Soyuz Grotesk;
+    font-family: Source Serif 4;
     font-size: 70px;
     font-weight: 700;
     line-height: 67px;
@@ -447,7 +471,7 @@ body {
     width: 1668px;
     height: 370px;
     margin: 46px 0 0 104px;
-    font-family: Soyuz Grotesk;
+    font-family: Source Serif 4;
     font-size: 70px;
     font-weight: 700;
     line-height: 67.41px;
@@ -457,7 +481,7 @@ body {
   .main-colors {
     position: relative;
     color: #4444b0;
-    font-family: Soyuz Grotesk;
+    font-family: Source Serif 4;
     font-size: 70px;
     font-weight: 700;
     line-height: 67.41px;
@@ -466,7 +490,7 @@ body {
   .bright-cold-shades {
     position: relative;
     color: #000000;
-    font-family: Soyuz Grotesk;
+    font-family: Source Serif 4;
     font-size: 70px;
     font-weight: 700;
     line-height: 67.41px;
@@ -478,7 +502,7 @@ body {
     height: 115px;
     margin: 112px 0 0 93px;
     color: #166b19;
-    font-family: Neothic;
+    font-family: Spectral SC;
     font-size: 100px;
     font-weight: 400;
     line-height: 115px;
@@ -495,7 +519,7 @@ body {
     height: 522px;
     margin: 64px 0 0 73px;
     color: #000000;
-    font-family: Soyuz Grotesk;
+    font-family:Source Serif 4;
     font-size: 70px;
     font-weight: 700;
     line-height: 67.41px;
@@ -508,7 +532,7 @@ body {
     height: 67px;
     margin: 112px 0 0 495px;
     color: #000000;
-    font-family: Soyuz Grotesk;
+    font-family: Source Serif 4;
     font-size: 70px;
     font-weight: 700;
     line-height: 67px;
@@ -535,7 +559,7 @@ body {
     height: 369px;
     margin: 81px 0 0 73px;
     color: #000000;
-    font-family: Soyuz Grotesk;
+    font-family: Source Serif 4;
     font-size: 70px;
     font-weight: 700;
     line-height: 67.41px;
@@ -548,7 +572,7 @@ body {
     height: 115px;
     margin: 234px 0 0 161px;
     color: #bc3c25;
-    font-family: Neothic;
+    font-family: Spectral SC;
     font-size: 100px;
     font-weight: 400;
     line-height: 115px;
@@ -566,7 +590,7 @@ body {
     height: 633px;
     margin: 143px 0 0 173px;
     color: #000000;
-    font-family: Soyuz Grotesk;
+    font-family: Source Serif 4;
     font-size: 70px;
     font-weight: 700;
     line-height: 67.41px;
@@ -579,7 +603,7 @@ body {
     height: 67px;
     margin: 445px 0 0 485px;
     color: #000000;
-    font-family: Soyuz Grotesk;
+    font-family: Source Serif 4;
     font-size: 70px;
     font-weight: 700;
     line-height: 67px;
@@ -606,7 +630,7 @@ body {
     height: 645px;
     margin: 201px 0 0 173px;
     color: #000000;
-    font-family: Soyuz Grotesk;
+    font-family: Source Serif 4;
     font-size: 70px;
     font-weight: 700;
     line-height: 67.41px;
@@ -619,7 +643,7 @@ body {
     height: 115px;
     margin: 201px 0 0 161px;
     color: #ec7914;
-    font-family: Neothic;
+    font-family: Spectral SC;
     font-size: 100px;
     font-weight: 400;
     line-height: 115px;
@@ -636,7 +660,7 @@ body {
     height: 603px;
     margin: 122px 0 0 173px;
     color: #000000;
-    font-family: Soyuz Grotesk;
+    font-family:Source Serif 4;
     font-size: 70px;
     font-weight: 700;
     line-height: 67.41px;
@@ -649,7 +673,7 @@ body {
     height: 67px;
     margin: 198px 0 0 495px;
     color: #000000;
-    font-family: Soyuz Grotesk;
+    font-family: Source Serif 4;
     font-size: 70px;
     font-weight: 700;
     line-height: 67px;
@@ -676,7 +700,7 @@ body {
     height: 502px;
     margin: 156px 0 0 173px;
     color: #000000;
-    font-family: Soyuz Grotesk;
+    font-family:Source Serif 4;
     font-size: 70px;
     font-weight: 700;
     line-height: 67.41px;
@@ -691,8 +715,8 @@ body {
     width: 1305px;
     height: 320px;
     margin: 129px 0 0 289px;
-    color: #ffffff;
-    font-family: Soyuz Grotesk;
+    color: #000000;
+    font-family: Source Serif 4;
     font-size: 70px;
     font-weight: 700;
     line-height: 80px;

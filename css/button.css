@@ -1,10 +1,10 @@
 .person2-button {
     display: inline-block;
     position: fixed;
-    width: 92px;
-    height: 99px;
+    width: 150px;
+    height: 120px;
     top: 15px;
-    left: 1920px;
+    left: 1800px;
     background: url(/images/person2.png)
       no-repeat center;
     background-size: cover;
@@ -16,22 +16,7 @@
   }
 .person2-button:hover {
     transform: scale(1.05);
-}
-.dress-button{
-    display: inline-block;
-    position: fixed;
-    width: 87px;
-    height: 87px;
-    top: 25px;
-    left: 1760px;
-    background: url(/images/dress.png)
-      no-repeat center;
-    background-size: cover;
-    z-index: 3;
-}
-.dress-button:hover {
-    transform: scale(1.05);
-}    
+}   
 
 .source-serif-4-uniquifier {
   font-family: "Source Serif 4", serif;
@@ -47,7 +32,7 @@
     position: fixed;
     height: 43px;
     top: 6px;
-    left: 20px;
+    left: 80px;
     color: #000;
     font-family: "Source Serif 4";
     font-size: 50px;
@@ -60,6 +45,11 @@
     border-radius: 5px; 
     transition: background-color 0.3s;
 }
+
+.about-us-button:hover {
+  transform: scale(1.05);
+} 
+
 .color-type-definition {
     display: inline-block;
     align-items: flex-start;
@@ -68,7 +58,7 @@
     width: 678px;
     height: 66px;
     top: 6px;
-    left: 170px;
+    left: 350px;
     color: #000;
     font-family: "Source Serif 4";
     font-size: 50px;
@@ -82,6 +72,11 @@
     transition: background-color 0.3s;
 
 }
+
+.color-type-definition:hover {
+  transform: scale(1.05);
+} 
+
 .virtual-wardrobe {
     display: inline-block;
     align-items: flex-start;
@@ -89,7 +84,7 @@
     position: fixed;
     height: 55px;
     top: 6px;
-    left: 760px;
+    left: 1100px;
     color: #000;
     font-family: "Source Serif 4";
     font-size: 50px;
@@ -104,39 +99,22 @@
     border-radius: 5px; 
     transition: background-color 0.3s;
   }
-  .my-wardrobe {
-    display: flex;
-    align-items: flex-start;
-    justify-content: flex-start;
-    position: absolute;
-    height: 55px;
-    top: 7px;
-    left: 1350px;
-    color: #000;
-    font-family: "Source Serif 4";
-    font-size: 50px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    z-index: 7;
-    text-decoration: none;
-    background-color: none;
-    padding: 10px 20px; 
-    border-radius: 5px; 
-    transition: background-color 0.3s;
-  }
-  .click-here {
+
+  .virtual-wardrobe:hover {
+    transform: scale(1.05);
+  } 
+
+  .mail-button{
+    left: 10px;;
     display: inline-block;
-    position: relative;
-    color: #4d05df;
-    font-family: Soyuz Grotesk;
-    font-size: 70px;
-    font-weight: 700;
-    line-height: 84px;
-    text-align: left;
-    text-decoration: none;
-    background-color: none;
-    padding: 10px 20px; 
-    border-radius: 5px; 
-    transition: background-color 0.3s;
+    position: absolute;
+    background-size: cover;
+    flex-shrink: 0;
+    width: 60px;
+    height: 60px;
+    flex-shrink: 0;
+    background: url(/images/mail.png);
   }
+  .mail-button:hover {
+    transform: scale(1.05);
+}  
