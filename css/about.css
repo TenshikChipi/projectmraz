@@ -6,6 +6,39 @@ body {
     margin: 0;
     overflow: visible;
 }
+
+.inter-uniquifier{
+  font-family: "Inter", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.spectral-sc-regular {
+  font-family: "Spectral SC", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.spectral-sc-bold {
+  font-family: "Spectral SC", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.caprasimo-regular {
+  font-family: "Caprasimo", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.source-serif-4-uniquifier {
+  font-family: "Source Serif 4", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
 .about-us1 {
     display: flex;
     align-items: center;
@@ -16,7 +49,7 @@ body {
     height: 115px;
     margin: 30px 0 0 730px;
     color: #4545b0;
-    font-family: Neothic;
+    font-family: Spectral SC;
     font-size: 100px;
     font-weight: 400;
     line-height: 115px;
@@ -34,7 +67,7 @@ body {
     height: 428px;
     margin: 129px 0 0 82px;
     color: #4444b0;
-    font-family: Soyuz Grotesk;
+    font-family: Source Serif 4;
     font-size: 70px;
     font-weight: 700;
     line-height: 67.41px;
@@ -51,7 +84,7 @@ body {
     top: 500px;
     margin: 278px 0 0 -221px;
     color: #4444b0;
-    font-family: Neothic;
+    font-family: Spectral SC;
     font-size: 100px;
     font-weight: 400;
     line-height: 115px;
@@ -81,7 +114,7 @@ body {
     top: 1100px;
     left: 550px;
     color: #4444b0;
-    font-family: Neothic;
+    font-family: Spectral SC;
     font-size: 70px;
     font-weight: 400;
     line-height: 115px;
@@ -109,7 +142,7 @@ body {
     top: 600px;
     height: 450px;
     color: #4444b0;
-    font-family: Soyuz Grotesk;
+    font-family: Source Serif 4;
     font-size: 70px;
     font-weight: 700;
     line-height: 67.41px;
@@ -125,7 +158,7 @@ body {
     width: 530px;
     height: 450px;
     color: #4444b0;
-    font-family: Soyuz Grotesk;
+    font-family: Source Serif 4;
     font-size: 70px;
     font-weight: 700;
     line-height: 67.41px;
@@ -142,7 +175,7 @@ body {
     height: 385px;
     margin: 158px 0 0 587px;
     color: #4444b0;
-    font-family: Soyuz Grotesk;
+    font-family: Source Serif 4;
     font-size: 70px;
     font-weight: 700;
     line-height: 67.41px;
@@ -159,7 +192,7 @@ body {
     height: 186px;
     margin: 285px 0 0 678px;
     color: #4444b0;
-    font-family: Neothic;
+    font-family: Spectral SC;
     font-size: 100px;
     font-weight: 400;
     line-height: 115.039px;
@@ -184,7 +217,7 @@ body {
     top: 200px;
     left: 800px;
     color: #4444b0;
-    font-family: Soyuz Grotesk;
+    font-family: Source Serif 4;
     font-size: 40px;
     font-weight: 700;
     line-height: 67.41px;
@@ -235,7 +268,7 @@ body {
     top: 142px;
     left: 0;
     color: #4444b0;
-    font-family: Soyuz Grotesk;
+    font-family: Source Serif 4;
     font-size: 40px;
     font-weight: 700;
     line-height: 67.41px;
@@ -254,7 +287,7 @@ body {
     top: 370px;
     left: 1450px;
     color: #4444b0;
-    font-family: Soyuz Grotesk;
+    font-family: Source Serif 4;
     font-size: 40px;
     font-weight: 700;
     line-height: 67.41px;
@@ -271,7 +304,7 @@ body {
     top: 600px;
     left: 71px;
     color: #4444b0;
-    font-family: Soyuz Grotesk;
+    font-family: Source Serif 4;
     font-size: 40px;
     font-weight: 700;
     line-height: 67.41px;
@@ -300,7 +333,7 @@ body {
     height: 651px;
     top: 21px;
     left: 820px;
-    font-family: Inter, var(--default-font-family);
+    font-family: Inter;
     font-size: 36px;
     font-weight: 400;
     line-height: 43.568px;
@@ -310,7 +343,7 @@ body {
   .product {
     position: relative;
     color: #ffebde;
-    font-family: Inter, var(--default-font-family);
+    font-family: Inter;
     font-size: 50px;
     font-weight: 400;
     line-height: 60px;
@@ -319,7 +352,7 @@ body {
   .empty {
     position: relative;
     color: #ffebde;
-    font-family: Inter, var(--default-font-family);
+    font-family: Inter;
     font-size: 48px;
     font-weight: 400;
     line-height: 57.6px;
@@ -328,7 +361,7 @@ body {
   .about-us-goals {
     position: relative;
     color: #ffebde;
-    font-family: Inter, var(--default-font-family);
+    font-family: Inter;
     font-size: 36px;
     font-weight: 400;
     line-height: 43.568px;
