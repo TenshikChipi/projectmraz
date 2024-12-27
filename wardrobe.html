@@ -16,18 +16,25 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz@0,14..32;1,14..32&display=swap" rel="stylesheet">
     <title>WARDROBE</title>
-</head>
-<body>
-   <section>
+    <section>
     <span class="wardrobe"> ВИРТУАЛЬНЫЙ </br>ГАРДЕРОБ </span>
     <div class="pr" ></div>
     <span class="obraz"> здесь вы можете</br>создавать свои </br>образы, добавляя </br>одежду, которая вам </br>нравится </span>
     <div class="polpr" ></div>
     <a href="#man-section" class="man">для мужчин</a>
+    <a href="#women-section" class="women">для женщин</a>
    </section>
    <section id="man-section" class="man-section">
     <span class="man-section"> для мужчин </span>
    </section>
+   <section id="women-section" class="women-section">
+    <span class="women-section"> для женщин </span>
+   </section>
+</head>
+<body>
+   
+
+
    <style>
     .file-input {
         display: none; /* Скрываем стандартный input */
@@ -100,6 +107,9 @@
         event.target.value = '';
     });
 </script>
+
+
+
 <style>
     .file-input1 {
         display: none; /* Скрываем стандартный input */
@@ -172,6 +182,9 @@
         event.target.value = '';
     });
 </script>
+
+
+
 <style>
     .file-input2 {
         display: none; /* Скрываем стандартный input */
@@ -226,6 +239,236 @@
     document.getElementById('fileInput2').addEventListener('change', function(event) {
         const files = event.target.files;
         const previewImage = document.getElementById('previewImage2');
+
+        // Если файлы выбраны
+        if (files.length > 0) {
+            const file = files[0]; // Берем только первое изображение
+            const reader = new FileReader();
+
+            reader.onload = function(e) {
+                previewImage.src = e.target.result; // Устанавливаем источник изображения
+                previewImage.style.display = 'block'; // Показываем изображение
+            }
+
+            reader.readAsDataURL(file);
+        } else {
+            previewImage.style.display = 'none'; // Скрываем изображение, если файлов нет
+        }
+
+        // Очистка поля ввода после загрузки файлов
+        event.target.value = '';
+    });
+</script>
+
+
+<style>
+    .file-input3 {
+        display: none; /* Скрываем стандартный input */
+    }
+
+    .custom-file-input4 {
+        display: inline-block;
+        padding: 10px 20px;
+        top: 800px;
+        left: 200px;
+        width:130px;
+        height: 140px;
+        background:url(/images/top.svg) ;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        position: relative; /* Для позиционирования изображения внутри кнопки */
+        overflow: hidden; /* Скрываем часть изображения, выходящую за границы кнопки */
+        background-color: transparent; /* Делаем фон прозрачным */
+        
+    }
+    .custom-file-input4:hover {
+        transform: scale(1.05);
+    } 
+    .image-preview3{
+        position: absolute; /* Позиционируем изображения относительно кнопки */
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%); /* Центрируем изображения */
+        max-width: 100%; /* Ограничиваем ширину изображения */
+        max-height: 100%; /* Ограничиваем высоту изображения */
+        object-fit: cover; /* Сохраняем пропорции изображения */
+        background-color: transparent; /* Делаем фон прозрачным */
+        
+    }
+    
+
+    .image-preview img {
+        
+        max-width: 190px; /* Ограничиваем ширину изображения */
+        height: auto; /* Высота автоматически подстраивается */
+        object-fit: contain; /* Сохраняем пропорции изображения */
+    }
+</style>
+<label class="custom-file-input4">
+    <input type="file" id="fileInput3" multiple accept="image/*" class="file-input3">
+    <img id="previewImage3" class="image-preview3" src="" alt="Preview" style="display:none;">
+</label>
+
+<script>
+    document.getElementById('fileInput3').addEventListener('change', function(event) {
+        const files = event.target.files;
+        const previewImage = document.getElementById('previewImage3');
+
+        // Если файлы выбраны
+        if (files.length > 0) {
+            const file = files[0]; // Берем только первое изображение
+            const reader = new FileReader();
+
+            reader.onload = function(e) {
+                previewImage.src = e.target.result; // Устанавливаем источник изображения
+                previewImage.style.display = 'block'; // Показываем изображение
+            }
+
+            reader.readAsDataURL(file);
+        } else {
+            previewImage.style.display = 'none'; // Скрываем изображение, если файлов нет
+        }
+
+        // Очистка поля ввода после загрузки файлов
+        event.target.value = '';
+    });
+</script>
+
+
+
+<style>
+    .file-input4 {
+        display: none; /* Скрываем стандартный input */
+    }
+
+    .custom-file-input5 {
+        display: inline-block;
+        padding: 10px 20px;
+        top: 1400px;
+        left: 20px;
+        width: 180px;
+        height: 250px;
+        background:url(/images/socks2.svg) ;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        position: relative; /* Для позиционирования изображения внутри кнопки */
+        overflow: hidden; /* Скрываем часть изображения, выходящую за границы кнопки */
+        background-color: transparent; /* Делаем фон прозрачным */
+        
+    }
+    .custom-file-input5:hover {
+        transform: scale(1.05);
+    } 
+    .image-preview4{
+        position: absolute; /* Позиционируем изображения относительно кнопки */
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%); /* Центрируем изображения */
+        max-width: 100%; /* Ограничиваем ширину изображения */
+        max-height: 100%; /* Ограничиваем высоту изображения */
+        object-fit: cover; /* Сохраняем пропорции изображения */
+        background-color: transparent; /* Делаем фон прозрачным */
+        
+    }
+    
+
+    .image-preview img {
+        
+        max-width: 190px; /* Ограничиваем ширину изображения */
+        height: auto; /* Высота автоматически подстраивается */
+        object-fit: contain; /* Сохраняем пропорции изображения */
+    }
+</style>
+<label class="custom-file-input5">
+    <input type="file" id="fileInput4" multiple accept="image/*" class="file-input4">
+    <img id="previewImage4" class="image-preview4" src="" alt="Preview" style="display:none;">
+</label>
+
+<script>
+    document.getElementById('fileInput4').addEventListener('change', function(event) {
+        const files = event.target.files;
+        const previewImage = document.getElementById('previewImage4');
+
+        // Если файлы выбраны
+        if (files.length > 0) {
+            const file = files[0]; // Берем только первое изображение
+            const reader = new FileReader();
+
+            reader.onload = function(e) {
+                previewImage.src = e.target.result; // Устанавливаем источник изображения
+                previewImage.style.display = 'block'; // Показываем изображение
+            }
+
+            reader.readAsDataURL(file);
+        } else {
+            previewImage.style.display = 'none'; // Скрываем изображение, если файлов нет
+        }
+
+        // Очистка поля ввода после загрузки файлов
+        event.target.value = '';
+    });
+</script>
+
+
+
+<style>
+    .file-input5 {
+        display: none; /* Скрываем стандартный input */
+    }
+
+    .custom-file-input6 {
+        display: inline-block;
+        padding: 10px 20px;
+        top: 1100px;
+        left: -200px;
+        width: 180px;
+        height: 185px;
+        background:url(/images/trusi.svg) ;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        position: relative; /* Для позиционирования изображения внутри кнопки */
+        overflow: hidden; /* Скрываем часть изображения, выходящую за границы кнопки */
+        background-color: transparent; /* Делаем фон прозрачным */
+        
+    }
+    .custom-file-input6:hover {
+        transform: scale(1.05);
+    } 
+    .image-preview5{
+        position: absolute; /* Позиционируем изображения относительно кнопки */
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%); /* Центрируем изображения */
+        max-width: 100%; /* Ограничиваем ширину изображения */
+        max-height: 100%; /* Ограничиваем высоту изображения */
+        object-fit: cover; /* Сохраняем пропорции изображения */
+        background-color: transparent; /* Делаем фон прозрачным */
+        
+    }
+    
+
+    .image-preview img {
+        
+        max-width: 190px; /* Ограничиваем ширину изображения */
+        height: auto; /* Высота автоматически подстраивается */
+        object-fit: contain; /* Сохраняем пропорции изображения */
+    }
+</style>
+<label class="custom-file-input6">
+    <input type="file" id="fileInput5" multiple accept="image/*" class="file-input5">
+    <img id="previewImage5" class="image-preview5" src="" alt="Preview" style="display:none;">
+</label>
+
+<script>
+    document.getElementById('fileInput5').addEventListener('change', function(event) {
+        const files = event.target.files;
+        const previewImage = document.getElementById('previewImage5');
 
         // Если файлы выбраны
         if (files.length > 0) {
