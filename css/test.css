@@ -1,0 +1,25 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+#container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#items-container {
+    position: relative;
+    width: 600px; /* Ширина контейнера для предметов */
+    height: 400px; /* Высота контейнера для предметов */
+    border: 2px dashed #ccc;
+    margin: 20px auto;
+}
+
+.item {
+    position: absolute;
+    cursor: move; /* Указатель перемещения */
+}
+.file-input {
+    display: none; /* Скрываем стандартный input */
+}
+

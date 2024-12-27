@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Добавление изображений</title>
+    <style>
+        .file-input {
+            display: none; /* Скрываем стандартный input */
+        }
+
+        .custom-file-input {
+            display: inline-block;
+            padding: 10px 20px;
+            width: 190px;
+            height: 190px;
+            background:url(/images/tors.svg) ;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            position: relative; /* Для позиционирования изображения внутри кнопки */
+            overflow: hidden; /* Скрываем часть изображения, выходящую за границы кнопки */
+            background-color: transparent; /* Делаем фон прозрачным */
+        }
+
+        .image-preview {
+            position: absolute; /* Позиционируем изображения относительно кнопки */
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%); /* Центрируем изображения */
+            max-width: 100%; /* Ограничиваем ширину изображения */
+            max-height: 100%; /* Ограничиваем высоту изображения */
+            object-fit: cover; /* Сохраняем пропорции изображения */
+    /* Устанавливаем прозрачность изображения */
+        }
+
+        .image-preview img {
+            
+            max-width: 100px; /* Ограничиваем ширину изображения */
+            height: auto; /* Высота автоматически подстраивается */
+            object-fit: contain; /* Сохраняем пропорции изображения */
+        }
+    </style>
+</head>
+<body>
+    <h1>Добавьте изображения</h1>
+    <label class="custom-file-input">
+        Выбрать файлы
+        <input type="file" id="fileInput" multiple accept="image/*" class="file-input">
+        <img id="previewImage" class="image-preview" src="" alt="Preview" style="display:none;">
+    </label>
+
+    <script>
+        document.getElementById('fileInput').addEventListener('change', function(event) {
+            const files = event.target.files;
+            const previewImage = document.getElementById('previewImage');
+
+            // Если файлы выбраны
+            if (files.length > 0) {
+                const file = files[0]; // Берем только первое изображение
+                const reader = new FileReader();
+
+                reader.onload = function(e) {
+                    previewImage.src = e.target.result; // Устанавливаем источник изображения
+                    previewImage.style.display = 'block'; // Показываем изображение
+                }
+
+                reader.readAsDataURL(file);
+            } else {
+                previewImage.style.display = 'none'; // Скрываем изображение, если файлов нет
+            }
+
+            // Очистка поля ввода после загрузки файлов
+            event.target.value = '';
+        });
+    </script>
+</body>
+</html>
