@@ -1,3 +1,4 @@
 .simple-radial {
+  position: absolute;
     background: radial-gradient(red, blue);
   }
