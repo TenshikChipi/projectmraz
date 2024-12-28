@@ -1,25 +1,17 @@
 body {
-    font-family: Arial, sans-serif;
+    background: linear-gradient( rgb(242, 205, 131) ,#d986ff);
+    width: 1920px;
+    height: 1000px;
 }
 
-#container {
-    text-align: center;
-    margin-top: 20px;
-}
-
-#items-container {
+.text{
     position: relative;
-    width: 600px; /* Ширина контейнера для предметов */
-    height: 400px; /* Высота контейнера для предметов */
-    border: 2px dashed #ccc;
-    margin: 20px auto;
+    top: 33px;
+    left: 500px;
+    color: #000;
+    font-family: "Source Serif 4";
+    font-size: 70px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 80px;
 }
-
-.item {
-    position: absolute;
-    cursor: move; /* Указатель перемещения */
-}
-.file-input {
-    display: none; /* Скрываем стандартный input */
-}
-
